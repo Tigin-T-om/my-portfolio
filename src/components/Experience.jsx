@@ -43,7 +43,7 @@ export default function Experience() {
     <section
       id="experience"
       className="min-h-screen flex flex-col items-center justify-center 
-                 px-6 py-20 bg-gradient-to-b from-[#0d0c1d] via-[#191730] to-[#0f0e1a] text-white"
+                 px-6 py-20 bg-[#051427] text-white"
     >
       <motion.div
         variants={sectionFade}
@@ -62,7 +62,7 @@ export default function Experience() {
           {experiences.map((exp, idx) => (
             <div
               key={idx}
-              className="bg-[#1a1a2e] p-6 rounded-xl shadow-md border border-zinc-700 
+              className="bg-[#1a1a2e] p-6 rounded-2xl shadow-lg border border-zinc-700 
                          cursor-pointer transform transition-all duration-300
                          hover:shadow-[0_0_25px_rgba(16,185,129,0.5)] hover:-translate-y-1"
             >

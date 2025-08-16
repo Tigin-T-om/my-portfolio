@@ -26,7 +26,7 @@ export default function Contact() {
     <section
       id="contact"
       className="min-h-screen flex flex-col items-center justify-center 
-                 px-6 py-20 bg-gradient-to-b from-[#0f0e1a] via-[#191730] to-[#1b1b2f] text-white"
+                 px-6 py-20 bg-[#051427] text-white"
     >
       <motion.div
         variants={sectionHover}
@@ -62,35 +62,35 @@ export default function Contact() {
             name="name"
             required
             placeholder="Your Name"
-            className="p-3 rounded-md bg-gray-800 text-white 
+            className="p-3 rounded-xl bg-[#1a1a2e] text-white 
                        focus:outline-none focus:ring-2 focus:ring-purple-500
-                       transition-all duration-300 hover:bg-gray-700"
+                       transition-all duration-300 hover:bg-[#272738]"
           />
           <input
             type="email"
             name="email"
             required
             placeholder="Your Email"
-            className="p-3 rounded-md bg-gray-800 text-white 
+            className="p-3 rounded-xl bg-[#1a1a2e] text-white 
                        focus:outline-none focus:ring-2 focus:ring-purple-500
-                       transition-all duration-300 hover:bg-gray-700"
+                       transition-all duration-300 hover:bg-[#272738]"
           />
           <textarea
             name="message"
             required
             rows="5"
             placeholder="Your Message"
-            className="p-3 rounded-md bg-gray-800 text-white 
+            className="p-3 rounded-xl bg-[#1a1a2e] text-white 
                        focus:outline-none focus:ring-2 focus:ring-purple-500
-                       transition-all duration-300 hover:bg-gray-700"
+                       transition-all duration-300 hover:bg-[#272738]"
           ></textarea>
 
-          {/* Button with only Tailwind hover */}
+          {/* Button with hover glow */}
           <button
             type="submit"
             className="bg-gradient-to-r from-purple-600 to-sky-500 
                        hover:from-purple-500 hover:to-sky-400
-                       text-white font-semibold py-3 px-6 rounded-md 
+                       text-white font-semibold py-3 px-6 rounded-xl 
                        transition-all duration-300 shadow-lg shadow-purple-500/30
                        hover:shadow-[0_0_25px_rgba(168,85,247,0.5)]"
           >

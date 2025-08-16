@@ -46,7 +46,7 @@ export default function Education() {
     <section
       id="education"
       className="min-h-screen flex flex-col items-center justify-center 
-                 px-6 py-20 bg-gradient-to-b from-[#0f0e1a] via-[#191730] to-[#0d0c1d] text-white"
+                 px-6 py-20 bg-[#051427] text-white"
     >
       <motion.div
         variants={sectionFade}
@@ -66,8 +66,8 @@ export default function Education() {
           {education.map((edu, idx) => (
             <div
               key={idx}
-              className="bg-[#1a1a2e] p-6 rounded-xl shadow-lg shadow-black/40 
-                         border border-zinc-700 cursor-pointer transform transition-all duration-300
+              className="bg-[#1a1a2e] p-6 rounded-2xl shadow-lg border border-zinc-700 
+                         cursor-pointer transform transition-all duration-300
                          hover:shadow-[0_0_25px_rgba(59,130,246,0.5)] hover:-translate-y-1"
             >
               <h3 className="text-xl font-semibold text-blue-300">{edu.degree}</h3>

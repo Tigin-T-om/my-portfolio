@@ -43,7 +43,7 @@ export default function Blog() {
     <section
       id="blog"
       className="min-h-screen flex flex-col items-center justify-center 
-                 px-6 py-20 bg-gradient-to-b from-[#0d0c1d] via-[#191730] to-[#0f0e1a] text-white"
+                 px-6 py-20 bg-[#051427] text-white"
     >
       <motion.div
         variants={sectionFade}
@@ -62,8 +62,8 @@ export default function Blog() {
           {blogPosts.map((post, idx) => (
             <div
               key={idx}
-              className="bg-[#1a1a2e] p-6 rounded-xl shadow-lg shadow-black/40 
-                         border border-zinc-700 transform transition-all duration-300
+              className="bg-[#1a1a2e] p-6 rounded-2xl shadow-lg border border-zinc-700 
+                         cursor-pointer transform transition-all duration-300
                          hover:shadow-[0_0_25px_rgba(250,204,21,0.5)] hover:-translate-y-1"
             >
               <h3 className="text-2xl font-semibold text-white">{post.title}</h3>

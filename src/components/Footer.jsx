@@ -8,8 +8,7 @@ export default function Footer() {
       whileInView={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.8, ease: "easeOut" }}
       viewport={{ amount: 0.3, once: false }}
-      className="bg-gradient-to-b from-[#0f0e1a] via-[#191730] to-[#1b1b2f] 
-                 text-gray-400 text-sm py-8 border-t border-gray-800"
+      className="bg-[#051427] text-gray-400 text-sm py-8 border-t border-gray-800"
     >
       <div className="max-w-6xl mx-auto px-4 flex flex-col md:flex-row 
                       justify-between items-center gap-4 text-center md:text-left">

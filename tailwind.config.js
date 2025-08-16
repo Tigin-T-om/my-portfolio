@@ -5,7 +5,12 @@ module.exports = {
     "./src/components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        "geist-sans": ["var(--font-geist-sans)", {fontFeatureSettings: "'case' on, 'liga' on"}],
+        "geist-mono": ["var(--font-geist-mono)", {fontFeatureSettings: "'case' on, 'liga' on"}],
+      },
+    },
   },
   plugins: [],
 }
