@@ -1,70 +1,68 @@
 "use client";
+
 import { motion } from "framer-motion";
 
-// Experience Data
+// Relevant Experiences
 const experiences = [
   {
-    title: "Academic Project",
+    title: "Academic Projects",
     description:
-      "Developed ShowTimeHub, a movie ticket booking system using PHP & MySQL with secure login and ticket management.",
+      "Built EpicSeat (E-commerce), E-Vote Hub (Voting App), MindBlog (Blogging App), and Predictfy (ML projects) using Django, Flask, and React.",
+  },
+  {
+    title: "Internship Experience",
+    description:
+      "Completed IBM SkillsBuild Virtual Internship, developing a Financial Chatbot using IBM Watson AI Studio and LLaMA3 model.",
+  },
+  {
+    title: "Workshops & Certifications",
+    description:
+      "Attended national seminars, conducted Python workshops for students, and earned certifications in AI, ML, Cloud, and Web Development.",
   },
   {
     title: "Hackathon Participation",
     description:
-      "Built a real-time chat app in 24 hours using Node.js and Socket.IO at CodeFest 2025.",
-  },
-  {
-    title: "Personal Projects",
-    description:
-      "Created Aritmetika Solver (Python/Flask) and AutoChat-Discord to enhance coding skills and backend knowledge.",
-  },
-  {
-    title: "Workshops & Courses",
-    description:
-      "Completed CS50x by Harvard and IBM SkillsBuild AI Program to strengthen programming and AI fundamentals.",
+      "Built a real-time chat app in 24 hours using Node.js & Socket.IO at CodeFest 2025, enhancing teamwork and rapid prototyping skills.",
   },
 ];
-
-// Section Animation
-const sectionFade = {
-  hidden: { opacity: 0, y: 60 },
-  visible: {
-    opacity: 1,
-    y: 0,
-    transition: {
-      duration: 0.8,
-      ease: "easeOut",
-    },
-  },
-};
 
 export default function Experience() {
   return (
     <section
       id="experience"
-      className="min-h-screen flex flex-col items-center justify-center 
-                 px-6 py-20 bg-[#051427] text-white"
+      className="relative min-h-screen w-full flex flex-col items-center justify-center 
+                 px-6 py-24 text-white overflow-hidden"
     >
+      {/* Background Glows */}
+      <div className="absolute top-0 left-1/4 w-96 h-96 bg-purple-800/20 rounded-full blur-3xl opacity-30 -z-10"></div>
+      <div className="absolute bottom-0 right-1/4 w-96 h-96 bg-blue-800/20 rounded-full blur-3xl opacity-30 -z-10"></div>
+      <div className="absolute top-1/2 right-1/3 w-72 h-72 bg-pink-700/20 rounded-full blur-2xl opacity-25 -z-10"></div>
+
       <motion.div
-        variants={sectionFade}
-        initial="hidden"
-        whileInView="visible"
-        viewport={{ amount: 0.3, once: false }}
-        className="w-full flex flex-col items-center"
+        className="w-full flex flex-col items-center z-10"
+        initial={{ opacity: 0, y: 80 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 1, ease: "easeOut" }}
+        viewport={{ once: true }}
       >
         {/* Heading */}
         <h2 className="text-4xl md:text-5xl font-bold text-center mb-16 text-emerald-400">
           HANDS-ON EXPERIENCE
         </h2>
 
-        {/* Experience Grid */}
-        <div className="max-w-5xl w-full grid md:grid-cols-2 gap-8">
+        {/* Experience Grid (all reveal together) */}
+        <motion.div
+          className="max-w-5xl w-full grid md:grid-cols-2 gap-8"
+          initial={{ opacity: 0, y: 80 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 1, ease: "easeOut" }}
+          viewport={{ once: true }}
+        >
           {experiences.map((exp, idx) => (
             <div
               key={idx}
-              className="bg-[#1a1a2e] p-6 rounded-2xl shadow-lg border border-zinc-700 
-                         cursor-pointer transform transition-all duration-300
-                         hover:shadow-[0_0_25px_rgba(16,185,129,0.5)] hover:-translate-y-1"
+              className="bg-[#1a1a2e]/70 backdrop-blur-md p-6 rounded-2xl shadow-lg border border-zinc-700 
+                         hover:shadow-emerald-400/40 hover:shadow-xl transition-all duration-500"
             >
               <h3 className="text-xl font-semibold text-emerald-300 mb-2">
                 {exp.title}
@@ -74,7 +72,7 @@ export default function Experience() {
               </p>
             </div>
           ))}
-        </div>
+        </motion.div>
       </motion.div>
     </section>
   );

@@ -10,7 +10,7 @@ import Blog from "@/components/Blog";
 
 export default function Home() {
   return (
-    <main className="min-h-screen bg-black text-white flex flex-col">
+    <main className="min-h-screen flex flex-col">
       <Navbar />
       <Hero />
       <About />
@@ -19,7 +19,7 @@ export default function Home() {
       <Education />
       <Blog />
       <Contact />
-      <Footer /> 
+      <Footer />
     </main>
   );
 }
