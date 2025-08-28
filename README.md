@@ -6,8 +6,8 @@ This repository contains the source code for my personal portfolio website, buil
 
 ***
 
-![Portfolio Screenshot](./public/screenshot.png)
-*Note: You should replace the placeholder image path with an actual screenshot of your portfolio.*
+![Portfolio Screenshot](./public/image.png)
+
 
 ***
 
@@ -43,11 +43,11 @@ Make sure you have Node.js (version 18.x or higher) installed on your machine.
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/your-username/your-repo-name.git](https://github.com/your-username/your-repo-name.git)
+    git clone [https://github.com/Tigin-T-om/my-portfolio.git](https://github.com/Tigin-T-om/my-portfolio.git)
     ```
 2.  **Navigate into the project directory:**
     ```bash
-    cd your-repo-name
+    cd my-portfolio
     ```
 3.  **Install the dependencies:**
     ```bash
@@ -76,6 +76,6 @@ Check out the [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 
 ## 📬 Contact
 
-Tigin Tom - [your.email@example.com](mailto:your.email@example.com)
+Tigin Tom - [your.email@example.com](mailto:tigintomelanji@gmail.com)
 
-Project Link: [https://github.com/your-username/your-repo-name](https://github.com/your-username/your-repo-name)
+Project Link: [https://github.com/Tigin-T-om/my-portfolio.git](https://github.com/Tigin-T-om/my-portfolio.git)
