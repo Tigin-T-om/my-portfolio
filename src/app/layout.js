@@ -11,10 +11,15 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
+// --- UPDATED METADATA ---
 export const metadata = {
-  title: "Portfolio",
-  description: "My portfolio built with Next.js, React, and Tailwind CSS",
+  title: "Tigin Tom | Portfolio", // Changed the title to your name
+  description: "The portfolio of Tigin Tom, built with Next.js and Tailwind CSS.", // Made the description more specific
+  icons: {
+    icon: "/favicon.png", // Added this line to link to your icon in the public folder
+  },
 };
+// --- END OF UPDATE ---
 
 export default function RootLayout({ children }) {
   return (
