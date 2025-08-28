@@ -1,36 +1,81 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Tigin Tom's Personal Portfolio
 
-## Getting Started
+This repository contains the source code for my personal portfolio website, built with Next.js and Tailwind CSS. The site is designed to showcase my skills, experience, and the projects I've built.
 
-First, run the development server:
+### [Live Demo](https://my-portfolio-liard-five-14.vercel.app/) 🚀
+
+***
+
+![Portfolio Screenshot](./public/screenshot.png)
+*Note: You should replace the placeholder image path with an actual screenshot of your portfolio.*
+
+***
+
+## ✨ Features
+
+* **Modern UI/UX:** Clean, dark-themed design with subtle, engaging animations.
+* **Fully Responsive:** Optimized for a seamless experience on all devices, from mobile phones to desktops.
+* **Project Showcase:** A dedicated section to display my work with live links and source code.
+* **Built with a Modern Stack:** Leverages the power of Next.js for performance and Tailwind CSS for rapid, utility-first styling.
+
+***
+
+## 🛠️ Tech Stack
+
+This project was built using the following technologies:
+
+* **[Next.js](https://nextjs.org/)**: A React framework for building fast and scalable web applications.
+* **[React](https://reactjs.org/)**: A JavaScript library for building user interfaces.
+* **[Tailwind CSS](https://tailwindcss.com/)**: A utility-first CSS framework for rapid UI development.
+* **[Vercel](https://vercel.com/)**: For hosting and deployment.
+
+***
+
+## 🚀 Getting Started
+
+To get a local copy up and running, follow these simple steps.
+
+### Prerequisites
+
+Make sure you have Node.js (version 18.x or higher) installed on your machine.
+
+### Installation & Setup
+
+1.  **Clone the repository:**
+    ```bash
+    git clone [https://github.com/your-username/your-repo-name.git](https://github.com/your-username/your-repo-name.git)
+    ```
+2.  **Navigate into the project directory:**
+    ```bash
+    cd your-repo-name
+    ```
+3.  **Install the dependencies:**
+    ```bash
+    npm install
+    ```
+
+### Running the Development Server
+
+Once the dependencies are installed, you can run the development server with:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result. The page will auto-update as you edit the files.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+***
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🌐 Deployment on Vercel
 
-## Learn More
+The easiest way to deploy this Next.js app is to use the [Vercel Platform](https://vercel.com/new). Vercel provides a seamless deployment experience with automatic builds and deployments on every `git push`.
 
-To learn more about Next.js, take a look at the following resources:
+Check out the [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+***
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 📬 Contact
 
-## Deploy on Vercel
+Tigin Tom - [your.email@example.com](mailto:your.email@example.com)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Project Link: [https://github.com/your-username/your-repo-name](https://github.com/your-username/your-repo-name)
