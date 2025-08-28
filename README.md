@@ -6,7 +6,7 @@ This repository contains the source code for my personal portfolio website, buil
 
 ***
 
-![Portfolio Screenshot](./image.png)
+![Portfolio Screenshot](./public/image.png)
 
 
 ***
