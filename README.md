@@ -6,7 +6,7 @@ This repository contains the source code for my personal portfolio website, buil
 
 ***
 
-![Portfolio Screenshot](./public/image.png)
+![Portfolio Screenshot](./image.png)
 
 
 ***
@@ -76,6 +76,6 @@ Check out the [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 
 ## 📬 Contact
 
-Tigin Tom - [your.email@example.com](mailto:tigintomelanji@gmail.com)
+Tigin Tom - [tigintomelanji@gmail.com](mailto:tigintomelanji@gmail.com)
 
 Project Link: [https://github.com/Tigin-T-om/my-portfolio.git](https://github.com/Tigin-T-om/my-portfolio.git)
