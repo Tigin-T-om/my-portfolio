@@ -1,81 +1,92 @@
-# Tigin Tom's Personal Portfolio
+# Personal Portfolio Website - Tigin Tom
 
-This repository contains the source code for my personal portfolio website, built with Next.js and Tailwind CSS. The site is designed to showcase my skills, experience, and the projects I've built.
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
+[![Next.js](https://img.shields.io/badge/Framework-Next.js-blue.svg)](https://nextjs.org/)
+[![Tailwind CSS](https://img.shields.io/badge/Styling-TailwindCSS-38B2AC.svg)](https://tailwindcss.com/)
+[![Deployment](https://img.shields.io/badge/Deployed%20on-Vercel-black.svg)](https://vercel.com/)
 
-### [Live Demo](https://my-portfolio-liard-five-14.vercel.app/) 🚀
+A sleek, modern, and fully responsive portfolio website built with **Next.js** and **Tailwind CSS** to showcase my skills, projects, and professional experience.
 
-***
+---
 
-![Portfolio Screenshot](./public/image.png)
+### 🚀 [**View Live Demo**](https://my-portfolio-liard-five-14.vercel.app/)
 
 
-***
 
-## ✨ Features
+---
 
-* **Modern UI/UX:** Clean, dark-themed design with subtle, engaging animations.
-* **Fully Responsive:** Optimized for a seamless experience on all devices, from mobile phones to desktops.
-* **Project Showcase:** A dedicated section to display my work with live links and source code.
-* **Built with a Modern Stack:** Leverages the power of Next.js for performance and Tailwind CSS for rapid, utility-first styling.
+## ✨ Core Features
 
-***
+-   **Modern & Animated UI**: A clean, dark-themed design with smooth, subtle animations for an elegant user experience.
+-   **Fully Responsive**: Optimized for a seamless experience on all devices, from mobile phones to desktops.
+-   **Project Showcase**: A dedicated section to highlight my work, complete with live demo links and source code.
+-   **Performance Optimized**: Built with Next.js for fast page loads, server-side rendering, and SEO benefits.
+-   **Utility-First Styling**: Styled with Tailwind CSS for rapid, consistent, and maintainable UI development.
 
-## 🛠️ Tech Stack
+---
 
-This project was built using the following technologies:
+## 🛠️ Technology Stack
 
-* **[Next.js](https://nextjs.org/)**: A React framework for building fast and scalable web applications.
-* **[React](https://reactjs.org/)**: A JavaScript library for building user interfaces.
-* **[Tailwind CSS](https://tailwindcss.com/)**: A utility-first CSS framework for rapid UI development.
-* **[Vercel](https://vercel.com/)**: For hosting and deployment.
+| Technology                                    | Description                              |
+| --------------------------------------------- | ---------------------------------------- |
+| **[Next.js](https://nextjs.org/)** | React framework for production apps.     |
+| **[React](https://reactjs.org/)** | UI library for building components.      |
+| **[Tailwind CSS](https://tailwindcss.com/)** | A utility-first CSS framework.           |
+| **[Vercel](https://vercel.com/)** | Platform for hosting and deployment.     |
 
-***
+---
 
-## 🚀 Getting Started
+## ⚙️ Getting Started
 
-To get a local copy up and running, follow these simple steps.
+To run a local copy of this project, please follow these steps.
 
 ### Prerequisites
 
-Make sure you have Node.js (version 18.x or higher) installed on your machine.
+-   Ensure you have **Node.js** installed (v18.x or higher is recommended).
+-   A package manager like **npm** or **yarn**.
 
-### Installation & Setup
+### Local Setup
 
 1.  **Clone the repository:**
     ```bash
     git clone [https://github.com/Tigin-T-om/my-portfolio.git](https://github.com/Tigin-T-om/my-portfolio.git)
     ```
-2.  **Navigate into the project directory:**
+
+2.  **Navigate to the project directory:**
     ```bash
     cd my-portfolio
     ```
-3.  **Install the dependencies:**
+
+3.  **Install dependencies:**
     ```bash
     npm install
     ```
 
-### Running the Development Server
+4.  **Run the development server:**
+    ```bash
+    npm run dev
+    ```
 
-Once the dependencies are installed, you can run the development server with:
+Open **[http://localhost:3000](http://localhost:3000)** in your browser to see the result.
 
-```bash
-npm run dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result. The page will auto-update as you edit the files.
+## 🌐 Deployment
 
-***
+This application is optimized for deployment on the [**Vercel Platform**](https://vercel.com/new). Vercel provides a seamless experience for Next.js applications, with automatic builds and deployments on every `git push` to your main branch.
 
-## 🌐 Deployment on Vercel
+For more details, see the [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying).
 
-The easiest way to deploy this Next.js app is to use the [Vercel Platform](https://vercel.com/new). Vercel provides a seamless deployment experience with automatic builds and deployments on every `git push`.
+---
 
-Check out the [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 📜 License
 
-***
+This project is licensed under the **MIT License**. See the `LICENSE` file for more details.
 
-## 📬 Contact
+---
 
-Tigin Tom - [tigintomelanji@gmail.com](mailto:tigintomelanji@gmail.com)
+## 📫 Get In Touch
 
-Project Link: [https://github.com/Tigin-T-om/my-portfolio.git](https://github.com/Tigin-T-om/my-portfolio.git)
+**Tigin Tom** - [tigintomelanji@gmail.com](mailto:tigintomelanji@gmail.com)
+
+**Project Link**: [https://github.com/Tigin-T-om/my-portfolio](https://github.com/Tigin-T-om/my-portfolio)
