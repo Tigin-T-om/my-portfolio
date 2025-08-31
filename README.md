@@ -10,11 +10,9 @@ A sleek, modern, and fully responsive portfolio website built with **Next.js** a
 ---
 
 ### 🚀 [**View Live Demo**](https://my-portfolio-liard-five-14.vercel.app/)
-***
+
 
 ![Portfolio Screenshot](./public/image.png) 
-
-***
 
 
 ---
